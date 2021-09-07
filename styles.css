@@ -1,3 +1,5 @@
+@import 'rotate.css';
+
 html {
     background-color: #C09BD8;
     
@@ -48,4 +50,8 @@ body {
     align-items: center;
     justify-content: center;
     margin: auto;
+}
+
+svg {
+    stroke: #6d0fa4;
 }

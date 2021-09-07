@@ -1,0 +1,25 @@
+svg {
+    max-width: 100px;
+}
+
+mask rect, circle {
+    fill: #C09BD8;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+        transform-origin: center;
+    }
+    to {
+        transform: rotate(360deg);
+        transform-origin: center;
+    }
+}
+.rotate {
+    animation: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
