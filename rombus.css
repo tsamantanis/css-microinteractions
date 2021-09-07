@@ -1,0 +1,22 @@
+.fill-rombus {
+    fill: #6d0fa4;
+    opacity: 0.6;
+}
+
+@keyframes rotate-z {
+    from {
+        transform: rotateY(0);
+        transform-origin: center;
+    }
+    to {
+        transform: rotateY(360deg);
+        transform-origin: center;
+    }
+}
+.rotate-z {
+    animation: rotate-z;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
