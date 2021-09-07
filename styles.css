@@ -1,4 +1,5 @@
 @import 'rotate.css';
+@import 'ripple.css';
 
 html {
     background-color: #C09BD8;
@@ -54,4 +55,5 @@ body {
 
 svg {
     stroke: #6d0fa4;
+    max-width: 100px;
 }

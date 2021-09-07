@@ -1,0 +1,19 @@
+@keyframes ripple {
+    from {
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+    }
+    to {
+        width: 90px;
+        height: 90px;
+        opacity: 0;
+    }
+}
+.ripple {
+    animation: ripple;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
