@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import 'rotate.css';
 @import 'ripple.css';
 @import 'rombus.css';
@@ -8,6 +9,7 @@ html {
     background-image: url('./DarkHolographic.png');   
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body {
@@ -42,6 +44,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 4rem;
+    color: #fff;
     /* border: 2px solid #F7ECE1; */
 }
 
