@@ -1,6 +1,7 @@
 @import 'rotate.css';
 @import 'ripple.css';
 @import 'rombus.css';
+@import 'lock.css';
 
 html {
     background-color: #C09BD8;

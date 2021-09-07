@@ -1,0 +1,21 @@
+.lock-icon path {
+    fill: #6d0fa4;
+    stroke: none;
+}
+
+@keyframes lower {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(16%)
+    }
+}
+
+
+.lock-container:hover .lock-icon .top{
+    animation: lower;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
