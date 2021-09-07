@@ -2,10 +2,12 @@
 @import 'ripple.css';
 @import 'rombus.css';
 @import 'lock.css';
+@import 'gradient.css';
 
 html {
-    background-color: #C09BD8;
-    
+    background-image: url('./DarkHolographic.png');   
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body {
@@ -45,7 +47,7 @@ body {
 
 .element-container {
     flex: auto;
-    border: 2px solid #6d0fa4;
+    border: 2px solid #fff;
     border-radius: 10px;
     min-height: 250px;
     min-width: 250px;
@@ -56,6 +58,6 @@ body {
 }
 
 svg {
-    stroke: #6d0fa4;
+    stroke: #fff;
     max-width: 100px;
 }

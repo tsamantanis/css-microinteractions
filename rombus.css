@@ -1,6 +1,6 @@
 .fill-rombus {
-    fill: #6d0fa4;
-    opacity: 0.6;
+    fill: #fff;
+    opacity: 0.8;
 }
 
 @keyframes rotate-z {
