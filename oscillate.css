@@ -1,0 +1,22 @@
+@keyframes oscillate {
+    0% {
+        transform: translateY(0);
+        transform-origin: center;
+    }
+    50% {
+        transform: translateY(20rem);
+        transform-origin: center;
+    }
+    100% {
+        transform: translateY(0);
+        transform-origin: center;
+    }
+}
+
+.oscillate {
+    animation: oscillate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
