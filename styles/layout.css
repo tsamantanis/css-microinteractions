@@ -1,13 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import 'rotate.css';
-@import 'oscillate';
-@import 'ripple.css';
-@import 'rombus.css';
-@import 'lock.css';
-@import 'gradient.css';
-
 html {
-    background-image: url('./DarkHolographic.png');   
+    background-image: url('../img/DarkHolographic.png');   
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Ubuntu', sans-serif;
