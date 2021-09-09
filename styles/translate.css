@@ -1,0 +1,78 @@
+@keyframes translateY {
+    0% {
+        transform-origin: bottom;
+    }
+    50% {
+        transform: translateY(-50%);
+        transform-origin: bottom;
+    }
+    100% {
+        transform-origin: bottom;
+    }
+}
+.translateY {
+    animation: translateY;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.translateY-delay {
+    animation-delay: 1s;
+}
+
+@keyframes around {
+    0% {
+        transform-origin: bottom;
+    }
+    25% {
+        transform: translateY(-50%);
+    }
+    50% {
+        transform: translate(-50%, -50%);
+    }
+    75% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+
+    }
+}
+
+.around {
+    animation: around;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes around2 {
+    0% {
+        transform-origin: bottom;
+    }
+    25% {
+        transform: translateX(50%);
+    }
+    50% {
+        transform: translate(50%, -50%);
+    }
+    75% {
+        transform: translateY(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+
+    }
+}
+
+.around2 {
+    animation: around2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.around-delay {
+    animation-delay: 0.5s;
+}
+

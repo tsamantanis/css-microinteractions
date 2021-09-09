@@ -57,3 +57,7 @@ svg {
     stroke: #fff;
     max-width: 100px;
 }
+
+.fill {
+    fill: #fff;
+}

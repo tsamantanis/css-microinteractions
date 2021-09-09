@@ -3,8 +3,16 @@
         transform: translateY(0);
         transform-origin: center;
     }
+    25% {
+        transform: translateY(20px);
+        transform-origin: center;
+    }
     50% {
-        transform: translateY(20rem);
+        transform: translateY(0px);
+        transform-origin: center;
+    }
+    75% {
+        transform: translateY(-20px);
         transform-origin: center;
     }
     100% {
@@ -15,7 +23,95 @@
 
 .oscillate {
     animation: oscillate;
-    animation-duration: 10s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes oscillateUp {
+    0% {
+        transform: translateY(0);
+        transform-origin: center;
+    }
+    50% {
+        transform: translateY(20px);
+        transform-origin: center;
+    }
+    100% {
+        transform: translateY(0px);
+        transform-origin: center;
+    }
+}
+
+.oscillateUp {
+    animation: oscillateUp;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes oscillateDown {
+    0% {
+        transform: translateY(0);
+        transform-origin: center;
+    }
+    50% {
+        transform: translateY(-20px);
+        transform-origin: center;
+    }
+    100% {
+        transform: translateY(0px);
+        transform-origin: center;
+    }
+}
+
+.oscillateDown {
+    animation: oscillateDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes oscillateLeft {
+    0% {
+        transform: translateX(0);
+        transform-origin: center;
+    }
+    50% {
+        transform: translateX(-20px);
+        transform-origin: center;
+    }
+    100% {
+        transform: translateX(0px);
+        transform-origin: center;
+    }
+}
+
+.oscillateLeft {
+    animation: oscillateLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes oscillateRight {
+    0% {
+        transform: translateX(0);
+        transform-origin: center;
+    }
+    50% {
+        transform: translateX(20px);
+        transform-origin: center;
+    }
+    100% {
+        transform: translateX(0px);
+        transform-origin: center;
+    }
+}
+
+.oscillateRight {
+    animation: oscillateRight;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
