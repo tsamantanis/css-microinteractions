@@ -52,10 +52,10 @@
         transform-origin: bottom;
     }
     25% {
-        transform: translateX(50%);
+        transform: translateX(53%);
     }
     50% {
-        transform: translate(50%, -50%);
+        transform: translate(53%, -50%);
     }
     75% {
         transform: translateY(-50%);
