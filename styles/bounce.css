@@ -1,0 +1,15 @@
+@keyframes bounce {
+    from, to  {
+    transform-origin: bottom;
+      animation-timing-function: ease-out;
+    }
+    50% {
+      transform: translateY(-50%);
+      transform-origin: bottom;
+      animation-timing-function: ease-in;
+    }
+}
+
+.bounce {
+    animation: bounce 1s infinite;
+}
