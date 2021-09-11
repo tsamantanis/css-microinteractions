@@ -17,22 +17,22 @@
     animation-timing-function: ease-in-out;
 }
 
-.top-left {
+.scale-anim .top-left {
     transform-origin: top left;
     animation-delay: 0s;
 }
 
-.top-right {
+.scale-anim .top-right {
     transform-origin: top right;
     animation-delay: 0.75s;
 }
 
-.bottom-right {
+.scale-anim .bottom-right {
     transform-origin: bottom right;
     animation-delay: 1.5s;
 }
 
-.bottom-left {
+.scale-anim .bottom-left {
     transform-origin: bottom left;
     animation-delay: 2.25s;
 }
