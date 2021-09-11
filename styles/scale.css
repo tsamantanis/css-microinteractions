@@ -1,3 +1,15 @@
+@-webkit-keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 @keyframes scale {
     0% {
         transform: scale(1);
@@ -11,28 +23,36 @@
 }
 
 .scale {
-    animation: scale;
-    animation-duration: 0.75s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation: scale;
+            animation: scale;
+    -webkit-animation-duration: 0.75s;
+            animation-duration: 0.75s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 .scale-anim .top-left {
     transform-origin: top left;
-    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
 }
 
 .scale-anim .top-right {
     transform-origin: top right;
-    animation-delay: 0.75s;
+    -webkit-animation-delay: 0.75s;
+            animation-delay: 0.75s;
 }
 
 .scale-anim .bottom-right {
     transform-origin: bottom right;
-    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
 }
 
 .scale-anim .bottom-left {
     transform-origin: bottom left;
-    animation-delay: 2.25s;
+    -webkit-animation-delay: 2.25s;
+            animation-delay: 2.25s;
 }

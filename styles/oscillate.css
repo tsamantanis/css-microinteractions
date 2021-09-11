@@ -1,3 +1,26 @@
+@-webkit-keyframes oscillate {
+    0% {
+        transform: translateY(0);
+        transform-origin: center;
+    }
+    25% {
+        transform: translateY(20px);
+        transform-origin: center;
+    }
+    50% {
+        transform: translateY(0px);
+        transform-origin: center;
+    }
+    75% {
+        transform: translateY(-20px);
+        transform-origin: center;
+    }
+    100% {
+        transform: translateY(0);
+        transform-origin: center;
+    }
+}
+
 @keyframes oscillate {
     0% {
         transform: translateY(0);
@@ -22,10 +45,29 @@
 }
 
 .oscillate {
-    animation: oscillate;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation: oscillate;
+            animation: oscillate;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+
+@-webkit-keyframes oscillateUp {
+    0% {
+        transform: translateY(0);
+        transform-origin: center;
+    }
+    50% {
+        transform: translateY(20px);
+        transform-origin: center;
+    }
+    100% {
+        transform: translateY(0px);
+        transform-origin: center;
+    }
 }
 
 @keyframes oscillateUp {
@@ -44,10 +86,29 @@
 }
 
 .oscillateUp {
-    animation: oscillateUp;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation: oscillateUp;
+            animation: oscillateUp;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+
+@-webkit-keyframes oscillateDown {
+    0% {
+        transform: translateY(0);
+        transform-origin: center;
+    }
+    50% {
+        transform: translateY(-20px);
+        transform-origin: center;
+    }
+    100% {
+        transform: translateY(0px);
+        transform-origin: center;
+    }
 }
 
 @keyframes oscillateDown {
@@ -66,10 +127,29 @@
 }
 
 .oscillateDown {
-    animation: oscillateDown;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation: oscillateDown;
+            animation: oscillateDown;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+
+@-webkit-keyframes oscillateLeft {
+    0% {
+        transform: translateX(0);
+        transform-origin: center;
+    }
+    50% {
+        transform: translateX(-20px);
+        transform-origin: center;
+    }
+    100% {
+        transform: translateX(0px);
+        transform-origin: center;
+    }
 }
 
 @keyframes oscillateLeft {
@@ -88,10 +168,29 @@
 }
 
 .oscillateLeft {
-    animation: oscillateLeft;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation: oscillateLeft;
+            animation: oscillateLeft;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+
+@-webkit-keyframes oscillateRight {
+    0% {
+        transform: translateX(0);
+        transform-origin: center;
+    }
+    50% {
+        transform: translateX(20px);
+        transform-origin: center;
+    }
+    100% {
+        transform: translateX(0px);
+        transform-origin: center;
+    }
 }
 
 @keyframes oscillateRight {
@@ -110,9 +209,13 @@
 }
 
 .oscillateRight {
-    animation: oscillateRight;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation: oscillateRight;
+            animation: oscillateRight;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
 }
 

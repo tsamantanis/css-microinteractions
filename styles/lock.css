@@ -3,6 +3,15 @@
     stroke: none;
 }
 
+@-webkit-keyframes lower {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(16%)
+    }
+}
+
 @keyframes lower {
     from {
         transform: translateY(0);
@@ -14,8 +23,11 @@
 
 
 .lock-container:hover .lock-icon .top{
-    animation: lower;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
+    -webkit-animation: lower;
+            animation: lower;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 

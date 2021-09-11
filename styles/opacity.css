@@ -1,8 +1,26 @@
+@-webkit-keyframes squares-disappear-1 {
+    0% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0;
+    }
+}
+
 @keyframes squares-disappear-1 {
     0% {
         opacity: 1;
     }
     20% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes squares-disappear-2 {
+    0% {
+        opacity: 1;
+    }
+    40% {
         opacity: 0;
     }
 }
@@ -16,11 +34,29 @@
     }
 }
 
+@-webkit-keyframes squares-disappear-3 {
+    0% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+}
+
 @keyframes squares-disappear-3 {
     0% {
         opacity: 1;
     }
     60% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes squares-disappear-4 {
+    0% {
+        opacity: 1;
+    }
+    80% {
         opacity: 0;
     }
 }
@@ -35,23 +71,30 @@
 }
 
 .squares-disappear {
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 
 .squares-disappear-anim .top-left {
-    animation-name: squares-disappear-1;
+    -webkit-animation-name: squares-disappear-1;
+            animation-name: squares-disappear-1;
 }
 
 .squares-disappear-anim .top-right {
-    animation-name: squares-disappear-2;
+    -webkit-animation-name: squares-disappear-2;
+            animation-name: squares-disappear-2;
 }
 
 .squares-disappear-anim .bottom-right {
-    animation-name: squares-disappear-3;
+    -webkit-animation-name: squares-disappear-3;
+            animation-name: squares-disappear-3;
 }
 
 .squares-disappear-anim .bottom-left {
-    animation-name: squares-disappear-4;
+    -webkit-animation-name: squares-disappear-4;
+            animation-name: squares-disappear-4;
 }

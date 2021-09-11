@@ -1,3 +1,15 @@
+@-webkit-keyframes translateY {
+    0% {
+        transform-origin: bottom;
+    }
+    50% {
+        transform: translateY(-50%);
+        transform-origin: bottom;
+    }
+    100% {
+        transform-origin: bottom;
+    }
+}
 @keyframes translateY {
     0% {
         transform-origin: bottom;
@@ -11,14 +23,38 @@
     }
 }
 .translateY {
-    animation: translateY;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation: translateY;
+            animation: translateY;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
 }
 
 .translateY-delay {
-    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+}
+
+@-webkit-keyframes around {
+    0% {
+        transform-origin: bottom;
+    }
+    25% {
+        transform: translateY(-50%);
+    }
+    50% {
+        transform: translate(-50%, -50%);
+    }
+    75% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+
+    }
 }
 
 @keyframes around {
@@ -41,10 +77,33 @@
 }
 
 .around {
-    animation: around;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation: around;
+            animation: around;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+}
+
+@-webkit-keyframes around2 {
+    0% {
+        transform-origin: bottom;
+    }
+    25% {
+        transform: translateX(53%);
+    }
+    50% {
+        transform: translate(53%, -50%);
+    }
+    75% {
+        transform: translateY(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+
+    }
 }
 
 @keyframes around2 {
@@ -67,12 +126,17 @@
 }
 
 .around2 {
-    animation: around2;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation: around2;
+            animation: around2;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
 }
 .around-delay {
-    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
 }
 

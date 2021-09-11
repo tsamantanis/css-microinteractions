@@ -3,6 +3,17 @@
     opacity: 0.8;
 }
 
+@-webkit-keyframes rotate-z {
+    from {
+        transform: rotateY(0);
+        transform-origin: center;
+    }
+    to {
+        transform: rotateY(360deg);
+        transform-origin: center;
+    }
+}
+
 @keyframes rotate-z {
     from {
         transform: rotateY(0);
@@ -14,9 +25,13 @@
     }
 }
 .rotate-z {
-    animation: rotate-z;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    -webkit-animation: rotate-z;
+            animation: rotate-z;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
 }
 
