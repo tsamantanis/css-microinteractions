@@ -1,0 +1,38 @@
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.scale {
+    animation: scale;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.top-left {
+    transform-origin: top left;
+    animation-delay: 0s;
+}
+
+.top-right {
+    transform-origin: top right;
+    animation-delay: 0.75s;
+}
+
+.bottom-right {
+    transform-origin: bottom right;
+    animation-delay: 1.5s;
+}
+
+.bottom-left {
+    transform-origin: bottom left;
+    animation-delay: 2.25s;
+}
