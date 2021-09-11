@@ -19,3 +19,9 @@ mask rect, circle {
     animation-timing-function: linear;
 }
 
+.rotate-cubic {
+    animation: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5,3,0.5,-3);
+}
