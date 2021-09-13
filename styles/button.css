@@ -175,3 +175,22 @@
     transform: translate3d(5px, 0, 0);
 }
 
+.process-loading path {
+    stroke:rgb(130, 2, 194);
+}
+
+.button .process-loading {
+    display: none;
+}
+
+.button.animate .process-loading {
+    display: block;
+}
+
+.button .process-text {
+    display: block;
+}
+
+.button.animate .process-text {
+    display: none;
+}
