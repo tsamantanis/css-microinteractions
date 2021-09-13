@@ -5,19 +5,23 @@
 
 @-webkit-keyframes lower {
     from {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
     }
     to {
-        transform: translateY(16%)
+        -webkit-transform: translateY(16%);
+                transform: translateY(16%)
     }
 }
 
 @keyframes lower {
     from {
-        transform: translateY(0);
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
     }
     to {
-        transform: translateY(16%)
+        -webkit-transform: translateY(16%);
+                transform: translateY(16%)
     }
 }
 
@@ -30,6 +34,3 @@
     -webkit-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
 }
-
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3N0eWxlcy9sb2NrLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFVBQVU7SUFDVixZQUFZO0FBQ2hCOztBQUVBO0lBQ0k7UUFDSSx3QkFBd0I7SUFDNUI7SUFDQTtRQUNJO0lBQ0o7QUFDSjs7QUFFQTtJQUNJO1FBQ0ksd0JBQXdCO0lBQzVCO0lBQ0E7UUFDSTtJQUNKO0FBQ0o7OztBQUdBO0lBQ0ksd0JBQXdCO1lBQ2hCLGdCQUFnQjtJQUN4QixnQ0FBZ0M7WUFDeEIsd0JBQXdCO0lBQ2hDLDhDQUE4QztZQUN0QyxzQ0FBc0M7QUFDbEQiLCJmaWxlIjoibG9jay5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubG9jay1pY29uIHBhdGgge1xuICAgIGZpbGw6ICNmZmY7XG4gICAgc3Ryb2tlOiBub25lO1xufVxuXG5ALXdlYmtpdC1rZXlmcmFtZXMgbG93ZXIge1xuICAgIGZyb20ge1xuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7XG4gICAgfVxuICAgIHRvIHtcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDE2JSlcbiAgICB9XG59XG5cbkBrZXlmcmFtZXMgbG93ZXIge1xuICAgIGZyb20ge1xuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7XG4gICAgfVxuICAgIHRvIHtcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDE2JSlcbiAgICB9XG59XG5cblxuLmxvY2stY29udGFpbmVyOmhvdmVyIC5sb2NrLWljb24gLnRvcHtcbiAgICAtd2Via2l0LWFuaW1hdGlvbjogbG93ZXI7XG4gICAgICAgICAgICBhbmltYXRpb246IGxvd2VyO1xuICAgIC13ZWJraXQtYW5pbWF0aW9uLWR1cmF0aW9uOiAwLjVzO1xuICAgICAgICAgICAgYW5pbWF0aW9uLWR1cmF0aW9uOiAwLjVzO1xuICAgIC13ZWJraXQtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogZWFzZS1pbi1vdXQ7XG4gICAgICAgICAgICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLWluLW91dDtcbn1cblxuIl19 */

@@ -1,26 +1,41 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 mask rect, circle {
     fill: #fff;
 }
 
 @-webkit-keyframes rotate {
     from {
-        transform: rotate(0);
-        transform-origin: center;
+        -webkit-transform: rotate(0);
+                transform: rotate(0);
+        -webkit-transform-origin: center;
+                transform-origin: center;
     }
     to {
-        transform: rotate(360deg);
-        transform-origin: center;
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+        -webkit-transform-origin: center;
+                transform-origin: center;
     }
 }
 
 @keyframes rotate {
     from {
-        transform: rotate(0);
-        transform-origin: center;
+        -webkit-transform: rotate(0);
+                transform: rotate(0);
+        -webkit-transform-origin: center;
+                transform-origin: center;
     }
     to {
-        transform: rotate(360deg);
-        transform-origin: center;
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+        -webkit-transform-origin: center;
+                transform-origin: center;
     }
 }
 .rotate {
@@ -44,5 +59,3 @@ mask rect, circle {
     -webkit-animation-timing-function: cubic-bezier(0.5,3,0.5,-3);
             animation-timing-function: cubic-bezier(0.5,3,0.5,-3);
 }
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3N0eWxlcy9yb3RhdGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksVUFBVTtBQUNkOztBQUVBO0lBQ0k7UUFDSSxvQkFBb0I7UUFDcEIsd0JBQXdCO0lBQzVCO0lBQ0E7UUFDSSx5QkFBeUI7UUFDekIsd0JBQXdCO0lBQzVCO0FBQ0o7O0FBRUE7SUFDSTtRQUNJLG9CQUFvQjtRQUNwQix3QkFBd0I7SUFDNUI7SUFDQTtRQUNJLHlCQUF5QjtRQUN6Qix3QkFBd0I7SUFDNUI7QUFDSjtBQUNBO0lBQ0kseUJBQXlCO1lBQ2pCLGlCQUFpQjtJQUN6Qiw4QkFBOEI7WUFDdEIsc0JBQXNCO0lBQzlCLDJDQUEyQztZQUNuQyxtQ0FBbUM7SUFDM0MseUNBQXlDO1lBQ2pDLGlDQUFpQztBQUM3Qzs7QUFFQTtJQUNJLHlCQUF5QjtZQUNqQixpQkFBaUI7SUFDekIsOEJBQThCO1lBQ3RCLHNCQUFzQjtJQUM5QiwyQ0FBMkM7WUFDbkMsbUNBQW1DO0lBQzNDLDZEQUE2RDtZQUNyRCxxREFBcUQ7QUFDakUiLCJmaWxlIjoicm90YXRlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIm1hc2sgcmVjdCwgY2lyY2xlIHtcbiAgICBmaWxsOiAjZmZmO1xufVxuXG5ALXdlYmtpdC1rZXlmcmFtZXMgcm90YXRlIHtcbiAgICBmcm9tIHtcbiAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMCk7XG4gICAgICAgIHRyYW5zZm9ybS1vcmlnaW46IGNlbnRlcjtcbiAgICB9XG4gICAgdG8ge1xuICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpO1xuICAgICAgICB0cmFuc2Zvcm0tb3JpZ2luOiBjZW50ZXI7XG4gICAgfVxufVxuXG5Aa2V5ZnJhbWVzIHJvdGF0ZSB7XG4gICAgZnJvbSB7XG4gICAgICAgIHRyYW5zZm9ybTogcm90YXRlKDApO1xuICAgICAgICB0cmFuc2Zvcm0tb3JpZ2luOiBjZW50ZXI7XG4gICAgfVxuICAgIHRvIHtcbiAgICAgICAgdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTtcbiAgICAgICAgdHJhbnNmb3JtLW9yaWdpbjogY2VudGVyO1xuICAgIH1cbn1cbi5yb3RhdGUge1xuICAgIC13ZWJraXQtYW5pbWF0aW9uOiByb3RhdGU7XG4gICAgICAgICAgICBhbmltYXRpb246IHJvdGF0ZTtcbiAgICAtd2Via2l0LWFuaW1hdGlvbi1kdXJhdGlvbjogMXM7XG4gICAgICAgICAgICBhbmltYXRpb24tZHVyYXRpb246IDFzO1xuICAgIC13ZWJraXQtYW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogaW5maW5pdGU7XG4gICAgICAgICAgICBhbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiBpbmZpbml0ZTtcbiAgICAtd2Via2l0LWFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGxpbmVhcjtcbiAgICAgICAgICAgIGFuaW1hdGlvbi10aW1pbmctZnVuY3Rpb246IGxpbmVhcjtcbn1cblxuLnJvdGF0ZS1jdWJpYyB7XG4gICAgLXdlYmtpdC1hbmltYXRpb246IHJvdGF0ZTtcbiAgICAgICAgICAgIGFuaW1hdGlvbjogcm90YXRlO1xuICAgIC13ZWJraXQtYW5pbWF0aW9uLWR1cmF0aW9uOiAycztcbiAgICAgICAgICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogMnM7XG4gICAgLXdlYmtpdC1hbmltYXRpb24taXRlcmF0aW9uLWNvdW50OiBpbmZpbml0ZTtcbiAgICAgICAgICAgIGFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IGluZmluaXRlO1xuICAgIC13ZWJraXQtYW5pbWF0aW9uLXRpbWluZy1mdW5jdGlvbjogY3ViaWMtYmV6aWVyKDAuNSwzLDAuNSwtMyk7XG4gICAgICAgICAgICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBjdWJpYy1iZXppZXIoMC41LDMsMC41LC0zKTtcbn1cbiJdfQ== */
