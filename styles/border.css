@@ -34,3 +34,74 @@
     outline: 1px solid rgba(255,255,255,1);
     outline-offset: 2px;
 }
+ 
+.border .button-4 span:before,
+.border .button-4 span:after{
+    content:'';
+    display:block;
+    width: 0;
+    height: 0;
+    border:1px solid rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -1px;
+    margin: auto;
+} 
+
+.border .button-4 span:before{
+    height: 100%;
+}
+.border .button-4 span:after{
+    width: 100%;
+}
+
+.border .button-4:hover span:before{
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    width: 100%;
+    transition: 0.3s;
+}
+.border .button-4:hover span:after{
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    border-right: 1px solid rgba(255, 255, 255, 0.8);
+    height: 100%;
+    transition: 0.3s;
+}
+
+.border .button-5 span:before,
+.border .button-5 span:after{
+    content:'';
+    display:block;
+    width: 0;
+    height: 0;
+    border:1px solid rgba(0,0,0,0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -1px;
+    margin: auto;
+} 
+
+.border .button-5 span:before{
+    width: 100%;
+}
+.border .button-5 span:after{
+    height: 100%;
+}
+
+.border .button-5:hover span:before{
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    height: 100%;
+    transition: .4s;
+}
+.border .button-5:hover span:after{
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    border-right: 1px solid rgba(255, 255, 255, 0.8);
+    width: 100%;
+    transition: .4s;
+}
+  
