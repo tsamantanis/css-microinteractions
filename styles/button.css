@@ -1,4 +1,20 @@
-.bubble-button {
+.button {
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    padding: 1em 2em;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: 0 2px 25px rgba(152, 147, 150, 0.5);
+}
+
+.bubble {
     font-size: 16px;
     text-align: center;
     display: inline-block;
@@ -18,10 +34,10 @@
     transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
     box-shadow: 0 2px 25px rgba(152, 147, 150, 0.5);
 }
-.bubble-button:focus {
+.bubble:focus {
     outline: 0;
 }
-.bubble-button:before, .bubble-button:after {
+.bubble:before, .bubble:after {
     position: absolute;
     content: '';
     display: block;
@@ -32,29 +48,29 @@
     transition: all ease-in-out 0.5s;
     background-repeat: no-repeat;
 }
-.bubble-button:before {
+.bubble:before {
     display: none;
     top: -75%;
     background-image: radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, transparent 20%, #fff 20%, transparent 30%), radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, transparent 10%, #fff 15%, transparent 20%), radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, #fff 20%, transparent 20%);
     background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
 }
-.bubble-button:after {
+.bubble:after {
     display: none;
     bottom: -75%;
     background-image: radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, transparent 10%, #fff 15%, transparent 20%), radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, #fff 20%, transparent 20%), radial-gradient(circle, #fff 20%, transparent 20%);
     background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
 }
-.bubble-button:active {
+.bubble:active {
     transform: scale(0.9);
     background-color: #fff;
     box-shadow: 0 2px 25px rgba(152, 147, 150, 0.5);
 }
-.bubble-button.animate:before {
+.bubble.animate:before {
     display: block;
     -webkit-animation: bubbles-up ease-in-out 0.75s forwards;
             animation: bubbles-up ease-in-out 0.75s forwards;
 }
-.bubble-button.animate:after {
+.bubble.animate:after {
     display: block;
     -webkit-animation: bubbles-down ease-in-out 0.75s forwards;
             animation: bubbles-down ease-in-out 0.75s forwards;
@@ -106,4 +122,28 @@
         background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
         background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
    }
+}
+
+.button-arrow--right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-arrow--right svg {
+    margin-left: 1em;
+}
+
+.button-arrow--right path {
+    stroke:rgb(130, 2, 194);
+    transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+}
+
+.button-arrow--right .arrow-circle {
+    opacity: 0;
+}
+
+.button-arrow--right:hover .arrow-circle {
+    opacity:1;
 }
