@@ -3,6 +3,7 @@
     color:#fff;
     border-radius: 0;
     transition: 0.3s ease;
+    box-shadow: none;
 }
   
 .border .button-1 {
@@ -23,4 +24,13 @@
 .border .button-2:hover{
     border: 1px solid rgba(255,255,255,0.3);
     outline: 1px solid rgba(255,255,255,0.8);
+}
+
+.border .button-3{
+    outline: 1px solid rgba(255,255,255,0.3);
+    outline-offset: 5px;
+}
+.border .button-3:hover{
+    outline: 1px solid rgba(255,255,255,1);
+    outline-offset: 2px;
 }
