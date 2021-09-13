@@ -61,3 +61,11 @@ svg {
 .fill {
     fill: #fff;
 }
+
+.bg-white {
+    background: white;
+}
+
+.bg-dark {
+    background: #4b4b4b;
+}
