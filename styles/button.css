@@ -139,8 +139,8 @@
 }
 
 .button-arrow--right {
-    transition: opacity 0.3s ease;
-    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    -webkit-transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .button-arrow--right .arrow-circle {
@@ -169,5 +169,9 @@
     
 .button-arrow--right-anim:hover .arrow-circle {
     stroke-dashoffset: 0;
+}
+
+.button-arrow--right-minimal:hover .arrow {
+    transform: translate3d(5px, 0, 0);
 }
 
