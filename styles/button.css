@@ -150,9 +150,6 @@
 
 .button-arrow svg {
     margin-left: 1em;
-    max-width: auto;
-    min-width: auto;
-    min-height: auto;
 }
 
 .button-arrow path {
@@ -222,4 +219,10 @@
 
 .button.animate .process-text {
     display: none;
+}
+
+button svg {
+    max-width: auto;
+    min-width: auto;
+    min-height: auto;
 }
