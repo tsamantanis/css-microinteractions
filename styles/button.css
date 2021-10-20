@@ -150,6 +150,9 @@
 
 .button-arrow svg {
     margin-left: 1em;
+    max-width: auto;
+    min-width: auto;
+    min-height: auto;
 }
 
 .button-arrow path {
