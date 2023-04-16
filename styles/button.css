@@ -209,6 +209,10 @@
     display: none;
 }
 
+.button.animate {
+    pointer-events: none;
+}
+
 .button.animate .process-loading {
     display: block;
 }
